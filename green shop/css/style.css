@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .popup {
   display: flex;
   position: fixed;
@@ -11,6 +7,11 @@
   align-items: center;
   width: 100%;
   height: 100%;
+}
+.crossImage{
+  display: flex;
+  margin-left: auto;
+  padding: 1rem;
 }
 .popup_content {
   display: flex;
