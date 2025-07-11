@@ -1,5 +1,6 @@
-.body {
-  margin: 30px 120px 52px;
+
+.conteiner{
+  padding: 30px 120px 52px;
 }
 .navgation {
   display: flex;
@@ -11,7 +12,7 @@
 
 .list {
   display: flex;
-  color: #3D3D3D;
+  color: #3d3d3d;
   font-family: "Cera Pro";
   font-size: 16px;
   font-style: normal;
@@ -54,10 +55,13 @@ main {
 }
 .main {
   display: flex;
-  gap: 200px;
+  gap: 300px;
+}
+.main_text {
+  padding: 68px 40px 85px;
 }
 .Welcome {
-  padding: 68px 40px 7px;
+  /* padding: 68px 40px 7px; */
   color: #3d3d3d;
   font-family: "Cera Pro";
   font-size: 14px;
@@ -68,14 +72,14 @@ main {
   text-transform: uppercase;
 }
 .title {
-  padding-left: 40px;
+  /* padding-left: 40px; */
   color: #3d3d3d;
   font-family: "Cera Pro";
   font-size: 70px;
   font-style: normal;
   font-weight: 900;
-  width: 70%;
-  margin: 0;
+  /* width: 70%; */
+  margin-top: 7px;
   line-height: 70px;
   text-transform: uppercase;
 }
@@ -83,14 +87,15 @@ main {
   color: #46a358;
 }
 .description {
-  padding: 5px 40px 44px;
-  width: 55%;
+  /* padding: 5px 40px 44px; */
+  /* width: 55%; */
   color: #727272;
   font-family: "Cera Pro";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+  margin: 5px 0 44px 0;
 }
 .button_shop {
   text-decoration: none;
@@ -104,41 +109,41 @@ main {
   padding: 11px 27px;
   border-radius: 6px;
   background: #46a358;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .plant {
   position: absolute;
   margin: 299px -450px;
 }
-@font-face{
+@font-face {
   font-family: "Cera Pro";
   src: url(./font/CeraPro-Light.woff2);
   font-weight: 300;
   font-style: normal;
   font-display: swap[];
 }
-@font-face{
+@font-face {
   font-family: "Cera Pro";
   src: url(./font/CeraPro-Regular.woff2);
   font-weight: 400;
   font-style: normal;
   font-display: swap[];
 }
-@font-face{
+@font-face {
   font-family: "Cera Pro";
   src: url(./font/CeraPro-Medium.woff2);
   font-weight: 500;
   font-style: normal;
   font-display: swap[];
 }
-@font-face{
+@font-face {
   font-family: "Cera Pro";
   src: url(./font/CeraPro-Bold.woff2);
   font-weight: 700;
   font-style: normal;
   font-display: swap[];
 }
-@font-face{
+@font-face {
   font-family: "Cera Pro";
   src: url(./font/CeraPro-Black.woff2);
   font-weight: 900;
