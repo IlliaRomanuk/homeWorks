@@ -90,7 +90,7 @@ header {
 }
 .header {
   display: flex;
-  gap: 300px;
+  gap: 93px;
 }
 .header_text {
   padding: 68px 40px 85px;
@@ -154,6 +154,7 @@ aside {
 .main {
   display: flex;
   padding-top: 46px;
+  gap: 50px;
 }
 .img_plant {
   margin-left: -29px;
@@ -192,10 +193,10 @@ aside {
   font-family: "Cera Pro";
 }
 .main_list {
-  padding: 0 0 38px 50px;
   display: flex;
   align-items: center;
-  gap: 50rem;
+  justify-content: space-between;
+  margin-bottom: 38px;
 }
 .main-list_ul li:first-child {
   color: #46a358;
@@ -220,7 +221,6 @@ aside {
   gap: 8px;
 }
 .product_cards {
-  margin-left: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -277,7 +277,7 @@ aside {
   font-weight: 700;
   line-height: 16px;
   border-radius: 4px;
-background: #46A358;
+  background: #46a358;
 }
 .page_numbers {
   display: flex;
