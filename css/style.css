@@ -349,6 +349,10 @@ aside {
   display: flex;
 }
 
+.product_card:hover {
+  border-top: 1px solid #46a358;
+}
+
 .card_prices {
   display: flex;
   gap: 18px;
