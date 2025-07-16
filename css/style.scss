@@ -33,10 +33,10 @@
   font-style: normal;
   font-display: swap;
 }
+
 .container {
   padding: 30px 120px 52px;
 }
-
 .navigation {
   display: flex;
   align-items: start;
@@ -54,7 +54,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 .list li {
   padding: 8px 25px 25px;
   color: #3d3d3d;
@@ -62,7 +61,6 @@
   font-style: normal;
   font-weight: 400;
 }
-
 #action {
   padding: 8px 0 25px;
   color: #3d3d3d;
@@ -73,7 +71,6 @@
   line-height: normal;
   border-bottom: 1px solid #46a358;
 }
-
 .button_login {
   text-decoration: none;
   display: flex;
@@ -88,20 +85,16 @@
   border-radius: 6px;
   gap: 4px;
 }
-
 header {
-  background-color: rgba(245, 245, 245, 0.5019607843);
+  background-color: #f5f5f580;
 }
-
 .header {
   display: flex;
   gap: 93px;
 }
-
 .header_text {
   padding: 68px 40px 85px;
 }
-
 .Welcome {
   /* padding: 68px 40px 7px; */
   color: #3d3d3d;
@@ -113,7 +106,6 @@ header {
   letter-spacing: 1.4px;
   text-transform: uppercase;
 }
-
 .title {
   color: #3d3d3d;
   font-family: "Cera Pro";
@@ -124,11 +116,9 @@ header {
   line-height: 70px;
   text-transform: uppercase;
 }
-
 .green_text {
   color: #46a358;
 }
-
 .description {
   color: #727272;
   font-family: "Cera Pro";
@@ -138,7 +128,6 @@ header {
   line-height: 24px;
   margin: 5px 0 44px 0;
 }
-
 .button_shop {
   text-decoration: none;
   color: #fff;
@@ -152,19 +141,16 @@ header {
   border-radius: 6px;
   background: #46a358;
 }
-
 .main-plants {
   position: relative;
   width: 518px;
   height: 470px;
 }
-
 .big_plant {
   display: block;
   width: 100%;
   height: 100%;
 }
-
 .plant {
   position: absolute;
   top: 315px;
@@ -176,21 +162,17 @@ aside {
   background-color: #fbfbfb;
   max-width: 310px;
 }
-
 .main {
   display: flex;
   padding-top: 46px;
   gap: 50px;
 }
-
 .img_plant {
   margin-left: -29px;
 }
-
 .categories {
   padding: 14px 18px 377px;
 }
-
 .categories_title {
   color: #3d3d3d;
   font-family: "Cera Pro";
@@ -199,7 +181,6 @@ aside {
   font-weight: 700;
   line-height: 16px;
 }
-
 .categories_list {
   padding: 7px 12px 0;
   color: #3d3d3d;
@@ -209,11 +190,9 @@ aside {
   line-height: 40px;
   font-family: "Cera Pro";
 }
-
 .action_item {
   color: #46a358;
 }
-
 .main-list_ul {
   display: flex;
   gap: 38px;
@@ -224,14 +203,12 @@ aside {
   line-height: 16px;
   font-family: "Cera Pro";
 }
-
 .main_list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 38px;
 }
-
 .main-list_ul li:first-child {
   color: #46a358;
   font-size: 15px;
@@ -243,7 +220,6 @@ aside {
   text-underline-offset: 7px;
   text-decoration-thickness: 2px;
 }
-
 .second_list {
   display: flex;
   align-items: center;
@@ -255,17 +231,14 @@ aside {
   font-family: "Cera Pro";
   gap: 8px;
 }
-
 .product_cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  -moz-column-gap: 33px;
-       column-gap: 33px;
+  column-gap: 33px;
   row-gap: 70px;
   width: 100%;
 }
-
 .product_card {
   flex: 0 0 calc((100% - 66px) / 3);
   max-width: calc((100% - 66px) / 3);
@@ -278,7 +251,6 @@ aside {
   max-height: 350px;
   position: relative;
 }
-
 .product-card_description {
   color: #3d3d3d;
   font-size: 16px;
@@ -289,7 +261,6 @@ aside {
   margin-top: 30px;
   display: block;
 }
-
 .product-card_price {
   display: block;
   color: #46a358;
@@ -299,7 +270,6 @@ aside {
   line-height: 16px;
   font-family: "Cera Pro";
 }
-
 .page_number {
   text-decoration: none;
   color: #3d3d3d;
@@ -312,7 +282,6 @@ aside {
   border-radius: 4px;
   border: 1px solid #e5e5e5;
 }
-
 .page_number-active {
   color: #fff;
   font-family: "Cera Pro";
@@ -323,39 +292,32 @@ aside {
   border-radius: 4px;
   background: #46a358;
 }
-
 .page_numbers {
   display: flex;
   gap: 10px;
   justify-content: end;
 }
-
 .product-card_img {
   display: block;
 }
-
 .dropdown-list {
   position: absolute;
   top: 75%;
   left: 35%;
   display: none;
 }
-
 .dropdown-list > ul {
   display: flex;
   gap: 26px;
 }
-
 .product_card:hover .dropdown-list {
   display: flex;
 }
-
 .card_prices {
   display: flex;
   gap: 18px;
   margin-top: 6px;
 }
-
 .product-card_sale {
   color: #a5a5a5;
   font-family: "Cera Pro";
@@ -365,14 +327,12 @@ aside {
   line-height: 16px;
   text-decoration: line-through;
 }
-
 .discount-die {
   background-color: #46a358;
   position: absolute;
   top: 0;
   left: 0;
 }
-
 .discount-die > p {
   color: #fff;
   font-family: "Cera Pro";
@@ -380,5 +340,5 @@ aside {
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
-  padding: 6px 9px;
-}/*# sourceMappingURL=style.css.map */
+  padding:6px 9px ;
+}
