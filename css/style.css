@@ -276,6 +276,7 @@ aside {
   align-items: center;
   max-height: 350px;
   position: relative;
+  border-top: 1px solid transparent;
 }
 
 .product-card_description {
@@ -350,7 +351,7 @@ aside {
 }
 
 .product_card:hover {
-  border-top: 1px solid #46a358;
+  border-color: #46a358;
 }
 
 .card_prices {
