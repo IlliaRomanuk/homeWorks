@@ -44,6 +44,15 @@
   border-bottom: 1px solid rgba(70, 163, 88, 0.5);
   margin-bottom: 12px;
 }
+.list .punkt-spisok:hover {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 1px solid #46a358;
+}
 
 .list {
   display: flex;
@@ -54,22 +63,88 @@
   font-weight: 400;
   line-height: normal;
 }
-.list li {
+
+.list .punkt-spisok {
   padding: 8px 25px 25px;
   color: #3d3d3d;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  position: relative;
 }
-#action {
-  padding: 8px 0 25px;
-  color: #3d3d3d;
+.dop_list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  // margin: 12px;
+  background-color: #edf6ee;
+  li {
+    position: relative;
+    width: 180px;
+    padding: 13px;
+    color: #3d3d3d;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.dop_list > li:hover {
+  background-color: #1a712a;
+  color: #fff;
   font-family: "Cera Pro";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  border-bottom: 1px solid #46a358;
+}
+.main-punkt:hover .dop_list {
+  display: block;
+}
+// #action {
+//   padding: 8px 0 25px;
+//   color: #3d3d3d;
+//   font-family: "Cera Pro";
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: normal;
+//   border-bottom: 1px solid #46a358;
+// }
+.hidden-list {
+  z-index: 1;
+  position: absolute;
+  top: -140px;
+  left: 100%;
+  display: none;
+  // margin: 2px;
+  background-color: #edf6ee;
+  li {
+    width: 180px;
+    padding: 13px;
+    color: #3d3d3d;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.dop_main-punkt:hover .hidden-list {
+  display: block;
+}
+.hidden-list > li:hover {
+  background-color: #1a712a;
+  color: #fff;
+  font-family: "Cera Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .button_login {
   text-decoration: none;
