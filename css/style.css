@@ -259,11 +259,12 @@ header {
   gap: 93px;
   background-image: url(../images/01\ 2.png);
   background-repeat: no-repeat;
-  background-position: left 75% top 94%;
+  background-position: left 70% top 94%;
 }
 
 .header_text {
   padding: 68px 40px 85px;
+  width: 50%;
 }
 
 .Welcome {
@@ -689,6 +690,9 @@ aside {
   border-right: 1px solid rgba(70, 163, 88, 0.1);
 }
 
+.advantages {
+  padding: 19px 34px 23px 15px;
+}
 .advantages h2 {
   color: #3d3d3d;
   font-family: "Cera Pro";
@@ -696,10 +700,7 @@ aside {
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
-  padding: 17px 0 9px 15px;
-}
-.advantages img {
-  padding: 19px 0 0 15px;
+  padding: 17px 0 9px 0;
 }
 .advantages p {
   color: #727272;
@@ -708,7 +709,6 @@ aside {
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
-  padding: 0 0 23px 15px;
 }
 
 .registration-would h2 {
@@ -743,8 +743,15 @@ aside {
 }
 
 .pole {
+  width: 170px;
   padding: 12px 86px 12px 11px;
   border: none;
+  color: #acacac;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 footer {
