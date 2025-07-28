@@ -1,4 +1,93 @@
 @font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?7hn4vw");
+  src: url("fonts/icomoon.eot?7hn4vw#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?7hn4vw") format("truetype"), url("fonts/icomoon.woff?7hn4vw") format("woff"), url("fonts/icomoon.svg?7hn4vw#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow---Down-2:before {
+  content: "\e900";
+}
+
+.icon-Calling:before {
+  content: "\e901";
+}
+
+.icon-Facebook-1:before {
+  content: "\e902";
+  color: #46a358;
+}
+
+.icon-Frame:before {
+  content: "\e903";
+}
+
+.icon-heart-1:before {
+  content: "\e904";
+}
+
+.icon-Instagram-1:before {
+  content: "\e905";
+  color: #46a358;
+}
+
+.icon-Linkedin:before {
+  content: "\e906";
+  color: #46a358;
+}
+
+.icon-Location:before {
+  content: "\e907";
+}
+
+.icon-Logout:before {
+  content: "\e908";
+}
+
+.icon-Message:before {
+  content: "\e909";
+}
+
+.icon-shopping-1:before {
+  content: "\e90a";
+  color: #46a358;
+}
+
+.icon-Twitter:before {
+  content: "\e90b";
+  color: #46a358;
+}
+
+.icon-Union:before {
+  content: "\e90c";
+  color: #46a358;
+}
+
+.icon-Vector-1:before {
+  content: "\e90d";
+}
+
+.icon-Vector:before {
+  content: "\e90e";
+}
+
+@font-face {
   font-family: "Cera Pro";
   src: url(../font/CeraPro-Light.woff2);
   font-weight: 300;
@@ -159,11 +248,18 @@
 
 header {
   background-color: rgba(245, 245, 245, 0.5019607843);
+  background-image: url(../images/01\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left 90% top 0%;
 }
 
 .header {
   display: flex;
   gap: 93px;
+  background-image: url(../images/01\ 2.png);
+  background-repeat: no-repeat;
+  background-position: left 75% top 94%;
 }
 
 .header_text {
@@ -453,4 +549,270 @@ aside {
   font-weight: 500;
   line-height: 16px;
   padding: 6px 9px;
+}
+
+.second-block {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+
+.summer-product {
+  background: #fbfbfb;
+  text-align: right;
+  width: 586px;
+  display: flex;
+}
+
+.summer-product_text h2 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 37px 30px 0 0;
+}
+.summer-product_text p {
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 30px 25px 0;
+}
+.summer-product_text a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 6px;
+  background: #46a358;
+  padding: 10px 20px;
+  margin: 0 30px 46px 0;
+}
+.summer-product_text img {
+  position: relative;
+}
+
+.our-blog {
+  padding-top: 140px;
+}
+
+.blog-text h2 {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: "Cera Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.blog-text p {
+  color: #727272;
+  text-align: center;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 15px 0 35px 0;
+}
+
+#sale-green {
+  color: #46a358;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 9px 0 4px 15px;
+}
+
+.blog-plants {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.blog-plant {
+  background: #fbfbfb;
+  max-width: 268px;
+}
+.blog-plant h2 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  padding-left: 15px;
+}
+.blog-plant p {
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 4px 0 9px 15px;
+}
+.blog-plant a {
+  padding: 0 0 13px 15px;
+  display: flex;
+  text-decoration: none;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  gap: 3px;
+}
+
+.blog-plant a:hover {
+  color: #46a358;
+}
+
+.would {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-line {
+  border-right: 1px solid rgba(70, 163, 88, 0.1);
+}
+
+.advantages h2 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 17px 0 9px 15px;
+}
+.advantages img {
+  padding: 19px 0 0 15px;
+}
+.advantages p {
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 0 23px 15px;
+}
+
+.registration-would h2 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 31px 0 18px 0;
+}
+.registration-would p {
+  color: #727272;
+  font-family: "Cera Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 17px 0 32px 0;
+}
+.registration-would a {
+  text-decoration: none;
+  padding: 12px 26px;
+  border-radius: 0 6px 6px 0;
+  background: radial-gradient(#46a358, #64e77e);
+  color: #fff;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.pole {
+  padding: 12px 86px 12px 11px;
+  border: none;
+}
+
+footer {
+  background: #fbfbfb;
+}
+
+.contacts {
+  background: rgba(70, 163, 88, 0.1);
+  display: flex;
+  gap: 60px;
+}
+
+.contacte {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.contacte p {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.logo-footer {
+  padding: 27px 27px 27px 23px;
+}
+
+.info {
+  display: flex;
+  gap: 145px;
+}
+.info h2 {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 33px 0 0 23px;
+}
+.info li {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info ul {
+  padding: 8px 0 29px 23px;
+}
+.info .media-and-money h2 {
+  padding: 33px 0 20px 23px;
+}
+.info .media-and-money a {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(70, 163, 88, 0.2);
+  margin: 20px 0 33px 10px;
+}
+
+.social-icons {
+  padding-left: 13px;
+}
+
+.carts {
+  padding-left: 23px;
 }/*# sourceMappingURL=style.css.map */
