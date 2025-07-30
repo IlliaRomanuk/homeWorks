@@ -870,6 +870,23 @@ footer {
   pointer-events: none;
   transition: 0.3s;
 }
+.popup p {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.enter {
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
 
 .crossImage {
   display: flex;
@@ -971,6 +988,12 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
   box-sizing: border-box;
+  color: #a5a5a5;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 }
 
 .footer {
@@ -992,7 +1015,13 @@ footer {
   align-items: center;
   gap: 10px;
   border-radius: 0.5rem;
-  color: #3d3d3d;
+  color: #727272;
+  text-align: center;
+  font-family: "Cera Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
 }
 
 .submit {
@@ -1002,6 +1031,8 @@ footer {
   background-color: #46a358;
   border-radius: 0.5rem;
   padding: 16px 15px;
+  font-family: "Cera Pro";
+  line-height: 16px;
   color: white;
   font-size: 16px;
   font-weight: 700;
