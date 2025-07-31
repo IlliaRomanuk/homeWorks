@@ -10,7 +10,6 @@
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -254,7 +253,7 @@
 }
 
 header {
-  background-color: rgba(245, 245, 245, 0.5019607843);
+  background: linear-gradient(98deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
   background-image: url(../images/01\ 1.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -351,7 +350,7 @@ header {
 }
 
 aside {
-  background: radial-gradient(rgba(245, 245, 245, 0.5019607843), #f0fbf3);
+  background-color: #fbfbfb;
   max-width: 310px;
 }
 
@@ -786,7 +785,7 @@ footer {
 }
 
 .contacts {
-  background: rgba(70, 163, 88, 0.1);
+  background: linear-gradient(#46a358 1%, rgba(70, 163, 88, 0.1) 97%, #46a358);
   display: flex;
   gap: 60px;
 }
