@@ -123,7 +123,7 @@
       <aside>
         <div class="categories">
           <p class="categories_title">Categories</p>
-          <ul class="categories_list">
+          <!-- <ul class="categories_list">
             <li class="action_item">House Plants</li>
             <li>Potter Plants</li>
             <li>Seeds</li>
@@ -133,7 +133,72 @@
             <li>Trerrariums</li>
             <li>Gardening</li>
             <li>Accessories</li>
-          </ul>
+          </ul> -->
+          <div>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>House Plants</p>
+                <p>(33)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Potter Plants</p>
+                <p>(12)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Seeds</p>
+                <p>(65)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Small Plants</p>
+                <p>(39)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Big Plants</p>
+                <p>(23)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Succulents</p>
+                <p>(17)</p>
+              </div>
+            </label>
+            <label  class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Trerrariums</p>
+                <p>(19)</p>
+              </div>
+            </label>
+            <label class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Gardening</p>
+                <p>(13)</p>
+              </div>
+            </label>
+            <label class="custom-checkbox">
+              <input type="checkbox" name="">
+              <div class="custom-check-icon">
+                <p>Accessories</p>
+                <p>(18)</p>
+              </div>
+            </label>
+          </div>
         </div>
         <div class="img_plant">
           <img src="./images/Super Sale Banner.png" alt="">
@@ -476,6 +541,30 @@
       </div>
     </footer>
   </div>
+  
+  <div id="preloader" class="preloader hidden">
+    <div class="ball-one"></div>
+    <div class="ball-two"></div>
+</div>
+<a href="about.html" class="link">About</a>
+<script>
+    document.querySelectorAll('a.button_login').forEach(button_login => {
+      button_login.addEventListener('click', e => {
+        e.preventDefault();
+        document.getElementById('preloader').classList.remove('hidden');
+        setTimeout(() => { window.location = button_login.href }, 500);
+      });
+    });
 
+    const preloader = document.getElementById('preloader');
+
+// Когда закончится анимация на любом из шариков — прячем прелоадер
+document.querySelector('.ball-two').addEventListener('animationend', () => {
+  preloader.classList.add('hidden');
+});
+
+
+
+  </script>
 </body>
 </html>

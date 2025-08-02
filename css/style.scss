@@ -1038,3 +1038,100 @@ input[type="text"] {
     padding: 12px 40px;
   }
 }
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+}
+.custom-check-icon {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 150px;
+  color: #3d3d3d;
+  font-family: "Cera Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+// .custom-check-icon::before {
+//   content: "";
+//   position: absolute;
+//   color: #46a358;
+//   width: 140px;
+//   font-family: "Cera Pro";
+//   font-size: 15px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 40px;
+// }
+.custom-checkbox input:checked ~ .custom-check-icon {
+  color: #46a358;
+  font-weight: 700;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($color: #000000, $alpha: 0.5);
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ball-one {
+  background-color: #46a358;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: go-right 1s ease-in-out 0s 3 alternate forwards;
+}
+@keyframes go-right {
+  0% {
+    transform: translate(-10px);
+  }
+  100% {
+    transform: translate(70px);
+    background-color: #74e48a;
+    z-index: 1;
+  }
+}
+.ball-two {
+  background-color: #74e48a;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: go-left 1s ease-in-out 0s 3 alternate forwards;
+}
+@keyframes go-left {
+  0% {
+    transform: translate(10px);
+  }
+  100% {
+    transform: translate(-70px);
+    background-color: #46a358;
+    z-index: 0;
+  }
+}
+.preloader.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
